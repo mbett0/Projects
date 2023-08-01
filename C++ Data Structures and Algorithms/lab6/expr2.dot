@@ -1,0 +1,15 @@
+digraph G {
+g [ label="*"];
+c [ label="+"];
+a [ label="a"];
+b [ label="b"];
+c -> b;
+c -> a;
+f [ label="-"];
+d [ label="c"];
+e [ label="d"];
+f -> e;
+f -> d;
+g -> f;
+g -> c;
+}

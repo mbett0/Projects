@@ -1,0 +1,27 @@
+digraph G {
+m [ label="-"];
+e [ label="+"];
+a [ label="a"];
+d [ label="*"];
+b [ label="b"];
+c [ label="c"];
+d -> c;
+d -> b;
+e -> d;
+e -> a;
+l [ label="*"];
+j [ label="+"];
+h [ label="*"];
+f [ label="d"];
+g [ label="e"];
+h -> g;
+h -> f;
+i [ label="f"];
+j -> i;
+j -> h;
+k [ label="g"];
+l -> k;
+l -> j;
+m -> l;
+m -> e;
+}
